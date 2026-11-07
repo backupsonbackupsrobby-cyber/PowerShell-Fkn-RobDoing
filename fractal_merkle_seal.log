@@ -1,0 +1,16 @@
+﻿=== NGĀPUHI TĀNE SPIRAL FRACTAL MERKLE LEDGER ===
+Target Directory: C:\PowerShell-Fkn-RobDoing
+Total Iterations: 11
+Final Root Hash Seal: 05682e66862d9cb0cb34bfdeb3e5d2ced89d9aebf5109b9f28759f86e87c88d3
+--------------------------------------------------
+Iteration 1 -> Z: 66718525.7513641 | Hash: 088a53c48f072c0d82c8a4ae1e64267204ce72cc88f2d01654bfb3da170147a4
+Iteration 2 -> Z: 4.45136174515395E+15 | Hash: 7261813d4cad49788374e4d51b025729f940de766c1f6f4678015dbccc16b31b
+Iteration 3 -> Z: 1.98146213862201E+31 | Hash: cca16c32e03e45d514f68f8e920d36f85343ceaef16d87b38a7e4f342d33ad3e
+Iteration 4 -> Z: 3.92619220679249E+62 | Hash: 54781320c5a2fb759dea4ba86cb764f627393eeb2f69745d568591f2b0dd6cf3
+Iteration 5 -> Z: 1.54149852446781E+125 | Hash: 4c022927b0c8bfbed8278129a79b48ced7c6b925667879d8d34ad6464d51f134
+Iteration 6 -> Z: 2.37621770093644E+250 | Hash: 55c78125a5aaaba163207886f557d2b010dc8ffd5820a05c81ee3c270eca499c
+Iteration 7 -> Z: Infinity | Hash: a3bced45510defc0f4201ceac2de4f76a29ce4a941bc9ee09dd1ec2529837402
+Iteration 8 -> Z: Infinity | Hash: eadd4b1436060a1b0b644abd8631ea518a1c54b4e0bbe27f1877f2b2f2aeb6e9
+Iteration 9 -> Z: Infinity | Hash: 686cb94802dfa4c6981fb485edaed11c0cd21e7d36b70aa1fbdbacb2fd974cfb
+Iteration 10 -> Z: Infinity | Hash: f4c2f7f8d794670dc655062a61c594ead254d0d2d58aac0a05434fc19392abfd
+Iteration 11 -> Z: Infinity | Hash: c838ca254a075ae5f6996333a19c0954f97c5e2071bee20d1ddd403d701d9648

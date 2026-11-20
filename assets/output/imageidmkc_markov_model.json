@@ -1,0 +1,68 @@
+﻿{
+    "updated_at":  "2026-11-20 04:21:17.797 +11:00",
+    "observed_events":  0,
+    "last_stance":  "WUSHU-PUSH",
+    "predicted_next":  "TAI-CHI-PULL",
+    "predicted_prob":  0.3,
+    "trajectory_steps":  5,
+    "trajectory_path":  "WUSHU-PUSH -\u003e TAI-CHI-PULL -\u003e LIQUIDITY-RIVER -\u003e REIKI-FLOW -\u003e LIQUIDITY-RIVER -\u003e REIKI-FLOW",
+    "path_confidence":  0.004502,
+    "transition_matrix":  {
+                              "WUSHU-PUSH":  {
+                                                 "FINANCE-LEDGER":  0.2,
+                                                 "LIQUIDITY-RIVER":  0.25,
+                                                 "QIGONG-72-MERIDIAN":  0.15,
+                                                 "REIKI-FLOW":  0.1,
+                                                 "TAI-CHI-PULL":  0.3
+                                             },
+                              "PONG-PULL":  {
+                                                "BFT-EVM-QUORUM":  0.25,
+                                                "LIQUIDITY-RIVER":  0.4,
+                                                "PING-PUSH":  0.2,
+                                                "REIKI-FLOW":  0.15
+                                            },
+                              "PING-PUSH":  {
+                                                "FINANCE-LEDGER":  0.15,
+                                                "LIQUIDITY-RIVER":  0.25,
+                                                "PONG-PULL":  0.5,
+                                                "REIKI-FLOW":  0.1
+                                            },
+                              "TAI-CHI-PULL":  {
+                                                   "BFT-EVM-QUORUM":  0.1,
+                                                   "FINANCE-LEDGER":  0.25,
+                                                   "LIQUIDITY-RIVER":  0.35,
+                                                   "QIGONG-72-MERIDIAN":  0.2,
+                                                   "REIKI-FLOW":  0.1
+                                               },
+                              "QIGONG-72-MERIDIAN":  {
+                                                         "BFT-EVM-QUORUM":  0.35,
+                                                         "LIQUIDITY-RIVER":  0.3,
+                                                         "REIKI-FLOW":  0.2,
+                                                         "TAI-CHI-PULL":  0.15
+                                                     },
+                              "REIKI-FLOW":  {
+                                                 "BFT-EVM-QUORUM":  0.2,
+                                                 "LIQUIDITY-RIVER":  0.35,
+                                                 "QIGONG-72-MERIDIAN":  0.25,
+                                                 "TAI-CHI-PULL":  0.2
+                                             },
+                              "LIQUIDITY-RIVER":  {
+                                                      "BFT-EVM-QUORUM":  0.25,
+                                                      "REIKI-FLOW":  0.35,
+                                                      "TAI-CHI-PULL":  0.2,
+                                                      "WUSHU-PUSH":  0.2
+                                                  },
+                              "FINANCE-LEDGER":  {
+                                                     "BFT-EVM-QUORUM":  0.15,
+                                                     "LIQUIDITY-RIVER":  0.45,
+                                                     "REIKI-FLOW":  0.25,
+                                                     "TAI-CHI-PULL":  0.15
+                                                 },
+                              "BFT-EVM-QUORUM":  {
+                                                     "FINANCE-LEDGER":  0.3,
+                                                     "LIQUIDITY-RIVER":  0.4,
+                                                     "REIKI-FLOW":  0.2,
+                                                     "WUSHU-PUSH":  0.1
+                                                 }
+                          }
+}

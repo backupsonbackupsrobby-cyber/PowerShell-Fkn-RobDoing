@@ -1,6 +1,6 @@
 ---
 description: Information about installing PowerShell on Red Hat Enterprise Linux (RHEL)
-ms.date: 07/20/2026
+ms.date: 08/12/2026
 title: Install PowerShell 7 on Red Hat Enterprise Linux (RHEL)
 ---
 # Install PowerShell 7 on Red Hat Enterprise Linux (RHEL)
@@ -39,11 +39,7 @@ Installing PowerShell from PMC is the preferred method of installation.
 
 # Get version of RHEL
 source /etc/os-release
-if [ ${VERSION_ID%.*} -ge 8 ]
-then majorver=8
-elif [ ${VERSION_ID%.*} -ge 9 ]
-then majorver=9
-fi
+majorver=${VERSION_ID%.*}
 
 # Download the Microsoft RedHat repository package
 curl -sSL -O https://packages.microsoft.com/config/rhel/$majorver/packages-microsoft-prod.rpm
@@ -66,17 +62,17 @@ Download the universal package from the GitHub releases page. Select the URL of 
 you want to install.
 
 - PowerShell 7.6 (LTS) universal package
-  - `https://github.com/PowerShell/PowerShell/releases/download/v7.6.4/powershell-7.6.4-1.rh.x86_64.rpm`
+  - `https://github.com/PowerShell/PowerShell/releases/download/v7.6.6/powershell-7.6.6-1.rh.x86_64.rpm`
 - PowerShell 7.5 universal package
-  - `https://github.com/PowerShell/PowerShell/releases/download/v7.5.9/powershell-7.5.9-1.rh.x86_64.rpm`
+  - `https://github.com/PowerShell/PowerShell/releases/download/v7.5.11/powershell-7.5.11-1.rh.x86_64.rpm`
 - PowerShell 7.4 (LTS) universal package
-  - `https://github.com/PowerShell/PowerShell/releases/download/v7.4.18/powershell-7.4.18-1.rh.x86_64.rpm`
+  - `https://github.com/PowerShell/PowerShell/releases/download/v7.4.20/powershell-7.4.20-1.rh.x86_64.rpm`
 
 The following shell script downloads and installs the current release of PowerShell. You can change
 the URL to download the version of PowerShell that you want to install.
 
 ```sh
-sudo dnf install https://github.com/PowerShell/PowerShell/releases/download/v7.6.4/powershell-7.6.4-1.rh.x86_64.rpm
+sudo dnf install https://github.com/PowerShell/PowerShell/releases/download/v7.6.6/powershell-7.6.6-1.rh.x86_64.rpm
 ```
 
 ## Start PowerShell 7

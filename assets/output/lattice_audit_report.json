@@ -1,0 +1,202 @@
+﻿{
+    "timestamp_utc":  "2026-11-20T13:11:59Z",
+    "repo_root":  "C:\\PowerShell-Fkn-RobDoing",
+    "total_checked":  23,
+    "passed":  21,
+    "failed":  2,
+    "artifacts":  [
+                      {
+                          "path":  ".openpublishing.publish.config.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  88,
+                          "sha256":  "36b29cc5dafc535af0ad72609f0aa619a03ae15d5822a8eec9620f8a2f273f2e",
+                          "error":  null
+                      },
+                      {
+                          "path":  ".devcontainer\\devcontainer.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  42,
+                          "sha256":  "48463506df25ffbbdac39257554a104c538a174c1449a8fbd88133e746e94f77",
+                          "error":  null
+                      },
+                      {
+                          "path":  ".vscode\\cSpell.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  3,
+                          "sha256":  "318139bc99f34b5cc64918a57cdb01a25359225ab83c0ac383628238d81432f5",
+                          "error":  null
+                      },
+                      {
+                          "path":  ".vscode\\extensions.json",
+                          "type":  "json",
+                          "status":  "invalid_json",
+                          "lines":  17,
+                          "sha256":  "157a45ce8c5cd02928def081e0e4558db588324ee07591147ef9018b65956067",
+                          "error":  "Invalid object passed in, \u0027:\u0027 or \u0027}\u0027 expected. (6): {\r\n  // See https://go.microsoft.com/fwlink/?LinkId=827846\r\n  // for the documentation about the extensions.json format\r\n  \"recommendations\": [\r\n    \"Acrolinx.vscode-sidebar\",\r\n    \"docsmsft.docs-authoring-pack\",\r\n    \"marvhen.reflow-markdown\",\r\n    \"chrischinchilla.vale-vscode\",\r\n    \"ms-vscode.powershell\",\r\n    \"nhoizey.gremlins\",\r\n    \"shuworks.vscode-table-formatter\",\r\n    \"bierner.markdown-yaml-preamble\",\r\n    \"streetsidesoftware.code-spell-checker\",\r\n    \"usernamehw.errorlens\",\r\n    \"wmaurer.change-case\"\r\n  ]\r\n}\r\n"
+                      },
+                      {
+                          "path":  "assets\\output\\imageidmkc_markov_model.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  68,
+                          "sha256":  "95fa4b504dfbb9ccf878b48e95babe309c08448d58ec780f9994656ccb4e3dba",
+                          "error":  null
+                      },
+                      {
+                          "path":  "redir\\.openpublishing.redirection.51.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  14,
+                          "sha256":  "3f6f6de9d642caafdc1adae496601c7004db00a99e9f07b49bb0ca8fe602934e",
+                          "error":  null
+                      },
+                      {
+                          "path":  "redir\\.openpublishing.redirection.dsc.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  699,
+                          "sha256":  "c4c66943b1725df9192664f053a6ba87cb4e1f0a479f5a3cc3be375d996e6145",
+                          "error":  null
+                      },
+                      {
+                          "path":  "redir\\.openpublishing.redirection.gallery.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  179,
+                          "sha256":  "4a67098461f1237c2bfa647b88c6a4c0fc2304775cf0492ea4f9cba497eed5cb",
+                          "error":  null
+                      },
+                      {
+                          "path":  "redir\\.openpublishing.redirection.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  764,
+                          "sha256":  "3d75021a0f5c944827c2ee4043f9519bbef6418f74258f1c20e6a86541edeb3c",
+                          "error":  null
+                      },
+                      {
+                          "path":  "redir\\.openpublishing.redirection.psget.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  604,
+                          "sha256":  "edc444f8b2eb1fd5b78ba81747af99de42f2242b27ea76f048c11d62a54a04b0",
+                          "error":  null
+                      },
+                      {
+                          "path":  "redir\\.openpublishing.redirection.sdk.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  444,
+                          "sha256":  "596fc1471342c84ac1285a6c49a0867f483e0a09478e418d53c83a7cbbcfffe4",
+                          "error":  null
+                      },
+                      {
+                          "path":  "redir\\.openpublishing.redirection.virtual.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  2754,
+                          "sha256":  "bb61706aa9707d96808b3787a008ba40e87cd94a3e418db4779e22132abefffa",
+                          "error":  null
+                      },
+                      {
+                          "path":  "redir\\.openpublishing.redirection.wmf.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  134,
+                          "sha256":  "9a1ebd0c2e184d88abbc2d65afe47e96b6ba58c150ca2eb5f5d7b28577602f2f",
+                          "error":  null
+                      },
+                      {
+                          "path":  "reference\\docfx.json",
+                          "type":  "json",
+                          "status":  "invalid_json",
+                          "lines":  169,
+                          "sha256":  "44ceaba815423f473803e557f7b74129f84a8f0fd4f4b52a786c27410a47a745",
+                          "error":  "Invalid JSON primitive: ."
+                      },
+                      {
+                          "path":  "reference\\mapping\\monikerMapping.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  32,
+                          "sha256":  "b724372d32d562cb1f63fd4cfbd069ed1c9494f79f77496dc777bb8309866ba4",
+                          "error":  null
+                      },
+                      {
+                          "path":  "SovereignLedgerLogs\\live_asset_tracking_ledger.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  21,
+                          "sha256":  "2a422bcd33615d6f470730c1693d63de92b39ed276193b22a750899c4616eae7",
+                          "error":  null
+                      },
+                      {
+                          "path":  "SovereignLedgerLogs\\TaneBTreeLedger_20261031_115229.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  1,
+                          "sha256":  "b2509c413448eeb549ba92ddd4e65c218219cfb6dd7b89ddc5f072d10d077503",
+                          "error":  null
+                      },
+                      {
+                          "path":  "SovereignLedgerLogs\\TaneBTreeLedger_20261031_115254.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  1,
+                          "sha256":  "7785ea3b97e4be66f4e477355fcc9ee65a5702963a381e341e0cb2a07a19f42d",
+                          "error":  null
+                      },
+                      {
+                          "path":  "SovereignLedgerLogs\\TaneBTreeLedger_20261031_115415.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  1,
+                          "sha256":  "ad0df6c3bdb6f326346aee8b2a6d7dab6362a020ad553d0fd0c6f3a938fc00c4",
+                          "error":  null
+                      },
+                      {
+                          "path":  "tools\\whatsnew-manifest.json",
+                          "type":  "json",
+                          "status":  "ok",
+                          "lines":  13,
+                          "sha256":  "cbe1aa144d977b38fc98ca26f4a0cc81491009f021f3e6deb170e9e044409b11",
+                          "error":  null
+                      },
+                      {
+                          "path":  "local_repo_index.jsonl",
+                          "type":  "jsonl",
+                          "status":  "ok",
+                          "lines":  100,
+                          "bad_lines":  [
+
+                                        ],
+                          "sha256":  "1a786ad0009781bf7c2d8f06128492934c45e180f0bb1bdea12e7554958ecd7a",
+                          "error":  null
+                      },
+                      {
+                          "path":  "SovereignLedgerLogs\\bio_cycle_snapshots.jsonl",
+                          "type":  "jsonl",
+                          "status":  "ok",
+                          "lines":  2,
+                          "bad_lines":  [
+
+                                        ],
+                          "sha256":  "9b069a6e0302f45dd6652845e17fc481609a94ef74b9c3cc34369348c2653628",
+                          "error":  null
+                      },
+                      {
+                          "path":  "SovereignLedgerLogs\\chain_ledger_ps_enclave.jsonl",
+                          "type":  "jsonl",
+                          "status":  "ok",
+                          "lines":  1,
+                          "bad_lines":  [
+
+                                        ],
+                          "sha256":  "0cb2cecf3ad9f6e3810f927c0d9019c73ed818465b3da8005baf4b9b3da6ea33",
+                          "error":  null
+                      }
+                  ]
+}
